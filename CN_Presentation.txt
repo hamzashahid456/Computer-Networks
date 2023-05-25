@@ -1,0 +1,13 @@
+Topic:	Stateful Firewall
+
+A stateful firewall is a kind of firewall that keeps track and monitors the state of active network connections while analyzing incoming traffic and looking for potential traffic and data risks. This firewall is situated at Layers 3 and 4 of the Open Systems Interconnection (OSI) model. 
+
+Basic firewall features include blocking traffic designated as dangerous from either coming into a network or leaving it. It is important to monitor the state and context of network communications because this information can be used to identify threats—either based on where they are coming from, where they are going, or the content of their data packets. 
+
+Use to identify which states are safe and which pose threats.
+
+Examine the contents of data packets that came through the firewall and into the network. If these packets contain unsafe data, they can be blocked by a stateful firewall in the future.
+
+Stateful packet inspection is a technology used by stateful firewalls to determine which packets to allow through the firewall. It works by examining the contents of a data packet and then comparing them against data pertaining to packets that have previously passed through the firewall. 
+
+

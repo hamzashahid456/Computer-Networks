@@ -1,0 +1,45 @@
+172.30.10.130    /30
+
+IP:	10101100.00011110.00001010.10000010
+Subnet: 11111111.11111111.11111111.11111100
+And:    10101100.00011110.00001010.10000000
+
+Network address:	172.30.10.128
+
+For broadcast address:
+Just analyze the zero in the last section in subnet and put that one's in AND binary then convert it back:
+10101100.00011110.00001010.10000011
+172.30.10.131
+
+Broadcase address:
+
+
+10.1.113.75 /19
+
+IP:	00001010.00000001.01110001.01001011
+Subnet: 11111111.11111111.11100000.00000000
+And:    00001010.00000001.01100000.00000000
+
+Network address:	10.1.96.0	
+
+For broadcast address:
+Just analyze the zero in the last section in subnet and put that one's in AND binary then convert it back:
+000001010.00000001.01100000.00000011
+10.1.96.3
+
+
+
+198.133.219.250/24
+
+IP:	11000110.01110001.11011011.11111010
+Subnet: 11111111.11111111.11111111.00000000
+And:    11000110.01110001.11011011.00000000
+
+Network address:	198.113.219.0	
+
+For broadcast address:
+Just analyze the zero in the last section in subnet and put that one's in AND binary then convert it back:
+11000110.01110001.11011011.00000011
+198.113.219.3
+
+
